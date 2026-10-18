@@ -1,0 +1,36 @@
+{
+  "name": "ElderlyCare-FallGuard-Edge",
+  "version": "1.0.0",
+  "track": "Track A: PipeGen (Perception Track)",
+  "problem": "Problem 2: Fall Detection and Elder Care",
+  "target_hardware": "NVIDIA Jetson Orin Nano / AGX Orin / RTX GPUs",
+  "stages": {
+    "stage1_requirement": {
+      "config": "stage1_requirement/requirement.yaml",
+      "documentation": "stage1_requirement/requirements_doc.md"
+    },
+    "stage2_pipeline_ir": {
+      "ir_yaml": "stage2_pipeline_ir/pipeline.ir.yaml",
+      "ir_json": "stage2_pipeline_ir/pipeline.ir.json",
+      "graph_md": "stage2_pipeline_ir/pipeline_graph.md",
+      "graph_png": "docs/evidence/pipeline_ir_graph.png"
+    },
+    "stage3_model": {
+      "model_name": "YOLOv8n-Pose",
+      "weights": "yolov8n-pose.pt",
+      "onnx": "stage3_model/yolov8n-pose.onnx",
+      "model_card": "stage3_model/model_card.md",
+      "keypoints": "stage3_model/coco_keypoints.json"
+    },
+    "stage4_compiler": {
+      "compiler": "stage4_compiler/compiler.py",
+      "trt_compiler": "stage4_compiler/trt_compiler.py",
+      "performance_report": "stage4_compiler/performance_report.md"
+    },
+    "stage5_run": {
+      "entrypoint": "run_pipeline.py",
+      "runner": "stage5_run/fallback_runner.py",
+      "web_dashboard": "web_ui/index.html"
+    }
+  }
+}

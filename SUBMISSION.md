@@ -3,7 +3,7 @@
 
 **Submission Deadline**: October 18, 2026 — 06:00 PM IST  
 **Official Google Form for Final Submission**: [https://forms.gle/eJyeCKCG2UH757QZ8](https://forms.gle/eJyeCKCG2UH757QZ8)  
-**GitHub Repository**: [https://github.com/kokilacg30/hackwithblr](https://github.com/kokilacg30/hackwithblr)  
+**GitHub Repository**: [https://github.com/vk6226/CraftifAIHackathon_CRA004](https://github.com/vk6226/CraftifAIHackathon_CRA004)  
 **Chosen Track**: **Track A — PipeGen (Perception)**  
 **Problem Domain**: **Problem 2 — Fall Detection and Elder Care**  
 **Bonus Target**: **Edge Optimization** (INT8 Post-Training Quantization & Jetson Deployment)  
@@ -71,7 +71,7 @@ Track A: PipeGen (Perception Track) — Problem 2: Fall Detection and Elder Care
 
 ### Field 3: GitHub Repository URL
 ```text
-https://github.com/kokilacg30/hackwithblr
+https://github.com/vk6226/CraftifAIHackathon_CRA004
 ```
 
 ### Field 4: Project Description (Inputs, Tasks, Models, Precision, Outputs)
